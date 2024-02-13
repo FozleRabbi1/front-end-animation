@@ -9,7 +9,7 @@ const AdminLayout = () => {
         <div className="col-span-2">
           <SideBar></SideBar>
         </div>
-        <div className="col-span-10 bg-green-200 h-[200vh]">
+        <div className="col-span-10 bg-green-200 h-full]">
           <Outlet></Outlet>
         </div>
       </div>
